@@ -1,0 +1,8 @@
+User-agent: *
+Disallow: /less/
+Disallow: /.gitignore
+Disallow: /CNAME
+Disallow: /gulpfile.js
+Disallow: /LICENSE
+Disallow: /package.json
+Disallow: /README.md
