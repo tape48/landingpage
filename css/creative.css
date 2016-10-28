@@ -74,6 +74,13 @@ aside {
 .navbar-default .navbar-header .navbar-brand:focus {
   color: #eb3812;
 }
+.navbar-default .navbar-header .navbar-brand > img.logo {
+  height: 100%;
+  line-height: 1em;
+  display: inline-block;
+  padding: 0 0.5em;
+  vertical-align: top;
+}
 .navbar-default .navbar-header .navbar-toggle {
   font-weight: 700;
   font-size: 12px;
@@ -150,7 +157,7 @@ header {
   background-size: cover;
   -o-background-size: cover;
   background-position: center;
-  background-image: url('../img/tape.jpeg');
+  background-image: url('../img/tape.jpg');
   text-align: center;
   color: white;
 }

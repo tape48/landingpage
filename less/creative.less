@@ -87,6 +87,14 @@ aside {
         &:focus {
             color: darken(@theme-primary, 10%);
         }
+
+        & > img.logo {
+            height: 100%;
+            line-height: 1em;
+            display: inline-block;
+            padding: 0 0.5em;
+            vertical-align: top;
+        }
     }
     .navbar-header .navbar-toggle {
         font-weight: 700;
@@ -165,7 +173,7 @@ header {
     min-height: auto;
     .background-cover;
     background-position: center;
-    background-image: url('../img/tape.jpeg');
+    background-image: url('../img/tape.jpg');
     text-align: center;
     color: white;
     .header-content {
